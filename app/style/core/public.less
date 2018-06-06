@@ -1,0 +1,78 @@
+@tabColor:#1d568f;
+
+html{
+    font-size: 18px;
+}
+
+.am-tabs-default-bar-tab.am-tabs-default-bar-tab-active{
+    .vm-tab-title{
+        //background: #108ee9;
+        color:@tabColor;
+        height: 28px;
+        padding: 0 10px;
+        border-radius: 5px;
+        line-height: 28px;
+        font-weight:800;
+    }
+}
+.vm-tab-title{
+    font-size:0.87rem;
+}
+.am-navbar-title{
+    font-size:1.125rem;
+    line-height: 1.125rem;
+    color: #333333;
+    font-weight: 800;
+    width: 100%;
+}
+input{
+    -webkit-user-select: initial;
+}
+
+*{
+    //-webkit-touch-callout:none;
+    //-webkit-user-select:none;
+    //-khtml-user-select:none;
+    //-moz-user-select:none;
+    //-ms-user-select:none;
+    //user-select:none;
+    //transition: 0.3s;
+}
+//*::-webkit-scrollbar {
+//    width: 2px;
+//    //display:none;
+//}
+.backArrow{
+    vertical-align: middle;
+    margin: auto;
+    //margin-right: 1rem;
+    padding-right: 1rem;
+    img{
+        height:1rem;
+        vertical-align: middle;
+        margin: auto;
+    }
+}
+
+.am-navbar.am-navbar-nomargin{
+    margin-bottom: 0;
+}
+.am-navbar{
+    margin-bottom: 0.25rem;
+}
+.vm-loading-container{
+    text-align: center;
+    padding: 1rem 0;
+}
+.vm-loading-container-right{
+    position: absolute;
+    right: .8rem;
+    top:0.75rem;
+}
+.vm-fade-in{
+    animation: amFadeIn 0.4s;
+}
+
+input{
+    touch-action: none;
+}

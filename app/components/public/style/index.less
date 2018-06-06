@@ -1,0 +1,200 @@
+.sticky-list .sticky-container .am-list-item { padding-left: 0; }
+.sticky-list .sticky-container .am-list-line { padding-right: 0; }
+.sticky-list .sticky-container .am-list-line .am-list-content { padding-top: 0; padding-bottom: 0; }
+.sticky-list .sticky-container .sticky { padding: 7px 15px; transform: none; }
+.am-indexed-list-container{
+    height: 100%;
+}
+////.am-indexed-list-quick-search-bar{
+////    font-size:12px;
+////}
+.vm-tab-bar-container{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top:1px solid #cccccc;
+    background: white;
+    cursor: pointer;
+}
+.vm-tab-bar-item{
+    flex: 1;
+    padding: 0.3rem 0;
+    text-align: center;
+    //cursor: pointer;
+    height: 0.78+1.25+0.6rem;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.vm-search-bar{
+    width: 100%;
+    height:1.62rem;
+    background: #f0f0f0;
+    border-radius: 3.12rem;
+    border: none;
+    outline: none;
+    padding-left: 1.84rem;
+    font-size:0.88rem;
+    //line-height: 0.69rem;
+}
+.vm-search-bar-Container{
+    background: white;
+    padding: 0.47rem 0.94rem;
+    border-bottom: 1px solid rgba(240,240,240,0.50);
+}
+.vm-search-bar-icon{
+    position: absolute;
+    left: 0.625rem;
+    top:0;
+    bottom:0;
+    margin: auto;
+    width:0.745rem;
+    height:0.745rem;
+}
+.vm-search-bar-div{
+    position: relative;
+}
+.vm-tab-bar-icon-container{
+    height: 1.25rem;
+    margin-bottom: 0.15rem;
+    .vm-tab-bar-icon{
+        width: 0.94rem;
+        height: 0.94rem;
+        vertical-align: middle;
+    }
+}
+.vm-tab-bar-title{
+    height: 0.78rem;
+    font-size:0.57rem;
+    color:#363636;
+}
+.vm-search-bar-container-div{
+    background: white;
+}
+.vm-search-bar-shadow{
+    margin: 0 0.94rem 0.94rem 0.94rem;
+    .vm-search-bar{
+        height: 2.19rem;
+        background: white;
+        -webkit-appearance: none;
+        box-shadow: 0 0 15px 5px rgba(226,226,226,0.7);
+        border-radius: 0.32rem;
+    }
+}
+.vm-refresh-container{
+    //height: 100%;
+    //margin-top: -20px;
+    .refresh-view{
+        //height:400px;
+        //overflow: auto;
+        //width:100%;
+        //position:absolute;
+        //z-index: 99999;
+        //overflow:auto;
+        //touch-action: initial !important;
+        //user-select: all !important;
+        //-webkit-user-drag: auto !important;
+    }
+}
+.ptr-element{
+    .vm-refresh-loading{
+        display: none;
+    }
+    .vm-refresh-info:after{
+        content: '下拉刷新';
+    }
+}
+
+.ptr-loading{
+    .vm-refresh-loading{
+        display: block;
+    }
+}
+.ptr-refresh{
+    .vm-refresh-info:after{
+        content: '松开刷新';
+    }
+}
+.vm-list-error-info{
+    font-size:1.25rem;
+    line-height: 3rem;
+    text-align: center;
+    background: white;
+}
+.vm-refresh-container-div{
+    //height: 100%;
+    //overflow: auto;
+    //touch-action: initial !important;
+    //user-select: all !important;
+    //-webkit-user-drag: auto !important;
+}
+.am-tabs-horizontal .am-tabs-pane-wrap-inactive{
+    //display: none;
+}
+//.mui-scroll-wrapper,.mui-scroll{
+//    position: relative;
+//}
+//.mui-pull-bottom-pocket{
+//    display: none !important;
+//}
+.velcroFrame{
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+.vm-nav-absolute{
+    position:absolute;
+    top:0;
+    width:100%;
+}
+.velcroViewerDiv{
+    //padding-top: 50px;
+    height:100%;
+    width: 100%;
+}
+
+.vm-img-viewer{
+    text-align: center;
+    height: 100%;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    -webkit-transform:rotate(0deg);
+    img{
+        width: 100%;
+        height: auto;
+        margin:auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%); 	/* IE 9 */
+        -moz-transform: translate(-50%, -50%); 	/* Firefox */
+        -webkit-transform: translate(-50%, -50%); /* Safari 和 Chrome */
+        -o-transform: translate(-50%, -50%); 	/* Opera */
+    }
+}
+.vm-img-loading{
+    font-size: 12px;
+    color: #cccccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.velcroFrame-container{
+    padding-top: 50px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.vm-header-absolute{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 99999;
+}
